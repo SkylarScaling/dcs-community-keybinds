@@ -1,12 +1,11 @@
 return {
 	keyCommands = {
 		-- Autopilot
-		{down = iCommandPlaneAutopilot, up = iCommandPlaneStabCancel, name = _('Autopilot - Auto or OFF Switch'), category = {_('Custom'), _('Autopilot')}},
-		{down = iCommandPlaneStabHbar, up = iCommandPlaneStabCancel, name = _('Autopilot - Barometric Altitude Hold or OFF Switch'), category = {_('Custom'), _('Autopilot')}},
+		{down = iCommandPlaneAutopilot, up = iCommandPlaneStabCancel, name = _('Autopilot - Attitude Hold or OFF Switch'), category = {_('Custom'), _('Autopilot')}},
+		{down = iCommandPlaneStabHbar, up = iCommandPlaneStabCancel, name = _('Autopilot - Altitude Hold or OFF Switch'), category = {_('Custom'), _('Autopilot')}},
 
-		-- Countermeasures
-		{down = iCommandActiveIRJamming, up = iCommandActiveIRJamming, name = _('IR Jammmer On/Off Switch'), category = {_('Custom'), _('Countermeasures')}},
-		{down = iCommandActiveJamming, up = iCommandActiveJamming, name = _('ECM On/Off Switch'), category = {_('Custom'), _('Countermeasures')}},
+		-- Sensors
+		{down = iCommandPlaneRadarOnOff, up = iCommandPlaneRadarOnOff, name = _('Radar On/Off Switch'), category = {_('Custom'), _('Sensors')}},
 
 		-- Systems
 		{down = iCommandPowerOnOff, up = iCommandPowerOnOff, name = _('Master Power On/Off Switch'), category = {_('Custom'), _('Systems')}},
